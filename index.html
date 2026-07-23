@@ -1,76 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE WORLD - Muhammad Khan</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-55LKC8W3MH"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-55LKC8W3MH');
-    </script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="./Favicon .png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M. Khan | THE WORLD Book</title>
+ 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-55LKC8W3MH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-55LKC8W3MH');
+  </script>
+ 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./Favicon.png">
 </head>
 <body>
-
-    <header>
-        <h1 id="title"></h1>
-    </header>
-
-    <div class="book-card">
-        <section class="about-author">
-            <h3>About the Author</h3>
-            <p>Muhammad Khan | Illustrator • Coder • Aspiring Actor</p>
-            <p>Writing stories that explore the depth of social realities.</p>
-        </section>
-        
-        <h2>THE WORLD</h2>
-        <p>My First Book THE WORLD</p>
-        
-       <!-- Download Button -->
-<div id="button-container">
-    <a href="THE WORLD.pdf" download="THE_WORLD_Muhammad_Khan.pdf" class="btn" style="text-decoration: none; display: inline-block;">
-        Download PDF
-    </a>
-</div>
-
-   <!-- Safe Contact Form Section -->
-<footer style="text-align: center; margin-top: 50px; padding: 20px; border-top: 1px solid #eee;">
-    <h3>Contact Me</h3>
-    <p>For acting opportunities, book inquiries, or collaborations, send a message directly:</p>
-    
-    <!-- FormSubmit ka action link -->
-    <form action="https://formsubmit.co/mohammadhkhanofficial@gmail.com" method="POST" style="max-width: 400px; margin: 0 auto; text-align: left;">
-        
-        <!-- Spam se bachne ke liye honeypot field -->
-        <input type="text" name="_honey" style="display:none">
-        <!-- Message bhejne ke baad user ko wapis aapki site par lane ke liye -->
-        <input type="hidden" name="_next" value="https://mohammadhkhanofficial-hash.github.io/THE-WORLD-WEBSITE/">
-        
-        <div style="margin-bottom: 15px;">
-            <label style="display:block; margin-bottom: 5px;">Your Name:</label>
-            <input type="text" name="name" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box;">
-        </div>
-        
-        <div style="margin-bottom: 15px;">
-            <label style="display:block; margin-bottom: 5px;">Your Email:</label>
-            <input type="email" name="email" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box;">
-        </div>
-        
-        <div style="margin-bottom: 15px;">
-            <label style="display:block; margin-bottom: 5px;">Message:</label>
-            <textarea name="message" rows="4" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box; resize: none;"></textarea>
-        </div>
-        
-        <button type="submit" class="btn" style="width: 100%; animation: none;">Send Message</button>
-    </form>
-</footer>
-
-    <script src="style.js"></script>
+ 
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">MK's WORLD</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#book">The Book</a>
+    </div>
+  </nav>
+ 
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Welcome to <span>THE WORLD</span></h1>
+    <p>Official website for the book and full-stack development projects by Muhammad Khan.</p>
+    <a href="#book" class="btn">Read More</a>
+  </section>
+ 
+  <!-- About & Book Section -->
+  <div class="content-section">
+    <div class="card" id="about">
+      <h2>About Me</h2>
+      <p>I am a developer and writer passionate about technology, coding, and creative writing.</p>
+    </div>
+ 
+    <div class="card" id="book">
+      <h2>THE WORLD Book</h2>
+      <p>Explore the concepts, stories, and ideas inside "THE WORLD". Stay tuned for chapters and updates.</p>
+ 
+      <div id="button-container">
+        <a href="THE-WORLD.pdf" download="THE_WORLD_Muhammad_Khan.pdf" class="btn" id="downloadBtn">
+          Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Muhammad Khan. All rights reserved.</p>
+  </footer>
+ 
+  <script src="style.js"></script>
 </body>
 </html>
